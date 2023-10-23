@@ -1,0 +1,40 @@
+section.popular-menu{
+    text-align: center;
+}
+
+section.popular-menu h2{
+    font-size: 64px;
+}
+
+section.popular-menu >p{
+    font-size: 25px;
+    font-weight: 400;
+    max-width: 60%;
+    margin: 30px auto;
+}
+
+section.popular-menu div.container.menu {
+    justify-content: space-evenly;
+}
+section.popular-menu .container .menu-item{
+    flex: 1 1 30%;
+    padding: 20px auto;
+}
+
+section.popular-menu .container .menu-item img{
+    border-radius: 50%;
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+section.popular-menu .container .menu-item h3{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+section.popular-menu .container .menu-item p{
+    font-size: 17px;
+    font-weight: 400;
+
+}

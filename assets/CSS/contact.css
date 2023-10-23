@@ -1,0 +1,42 @@
+section.contact-us{
+    text-align: center;
+}
+
+section.contact-us h2{
+    margin-top: 65px;
+}
+
+section.contact-us p{
+    font-size: 30px;
+    font-weight: 400;
+    max-width: 75%;
+    margin: 60px auto 80px auto;
+}
+
+section.contact-us form{
+    margin: 0 auto 215px auto;
+    width: 60%;
+    position: relative;
+}
+
+section.contact-us form input{
+    padding: 20px 30px;
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    font-size: 25px;
+    font-family: "Montserrat";
+    box-sizing: border-box;
+}
+
+section.contact-us form input[type='submit']{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: max-content;
+    background-color: #21243d;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}

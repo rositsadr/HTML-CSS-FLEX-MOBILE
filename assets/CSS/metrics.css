@@ -1,0 +1,40 @@
+section.metrics{
+    text-align: center;
+}
+
+section.metrics>h2{
+    font-size: 62px;
+    margin-bottom: 45px;
+}
+
+section.metrics >p{
+    font-size: 25px;
+    font-weight: 400;
+    max-width: 45%;
+    margin: 0 auto;
+}
+
+section.metrics .container.statistics .circle{
+    width: 270px;
+    height: 270px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin: 85px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.metrics .container.statistics .circle .cotent{
+    margin: auto;
+}
+
+section.metrics .container.statistics .circle .content h2{
+    text-transform: uppercase;
+}
+
+section.metrics .container.statistics .circle .content p{
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 700;
+}

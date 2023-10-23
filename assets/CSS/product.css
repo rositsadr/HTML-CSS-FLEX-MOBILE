@@ -1,0 +1,33 @@
+section.product .container.product{
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 40px;
+}
+
+section.product .container.product .image-wrapper,
+section.product .container.product .content-wrapper{
+    flex: 1 1 50%;
+}
+
+section.product .container.product .image-wrapper{
+    text-align: center;
+}
+
+section.product .container.product .image-wrapper img{
+    border-radius: 50%;
+    max-width: 68%;
+}
+
+section.product .container.product .content-wrapper h2{
+    margin-bottom: 50px;
+}
+
+section.product .container.product .content-wrapper p{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 65px;
+}
+
+section.second.product .container.product{
+    flex-direction: row-reverse;
+}

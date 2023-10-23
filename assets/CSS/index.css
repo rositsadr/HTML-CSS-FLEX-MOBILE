@@ -1,0 +1,57 @@
+@import url('./reset.css');
+
+/* @import url('./font-awesome.css'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('./header.css');
+@import url('./popular-menu.css');
+@import url('./product.css');
+@import url('./metrics.css');
+@import url('./testimonials.css');
+@import url('./contact.css');
+@import url('./footer.css');
+
+body{
+    background-color: #21243d;
+    color: #ffffff;
+    font-family: "Montserrat";
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px 40px;
+}
+
+section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+button.order-btn{
+    background-color: #21243d;
+    cursor: pointer;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    padding: 18px 70px;
+}
+
+.yellow-bg{
+    background-color: #ffd17d;
+    color: #21243d;
+}
+
+h2{
+    font-size: 75px;
+    font-weight: 700;
+}

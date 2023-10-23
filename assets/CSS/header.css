@@ -1,0 +1,87 @@
+header div.container.nav-container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo-wrapper,
+header nav,
+header .search-wrapper{
+    flex-grow: 1;
+}
+
+header .logo-wrapper a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+
+header .logo-wrapper img{
+    width: 200px;
+    height: 70px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+header .search-wrapper{
+    text-align: end;
+    font-size: 25px;
+}
+
+header .search-wrapper i{
+    cursor: pointer;
+}
+
+header div.banner-bg{
+    background-image: url(../Images/header.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* position: relative; */
+    /* min-height: 500px; */
+}
+
+/* header div.banner-bg::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Images/header.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+} */
+
+header div.banner{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+header div.banner h1{
+    font-size: 125px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+header div.banner p{
+    max-width: 45%;/* Should be removed on lower screen*/ 
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
