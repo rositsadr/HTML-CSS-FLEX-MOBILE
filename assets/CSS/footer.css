@@ -66,3 +66,25 @@ footer .container .site-map .helper-links{
     flex-direction: column;
     /* gap: 15px; */
 }
+
+@media screen and (max-width: 768px){
+    footer{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+
+    footer .container{
+        flex-direction: column;
+        gap:40px;
+    }
+
+    footer .container p{
+        max-width: unset;
+    }
+
+    footer .container .footer-content .socials{
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -31,3 +31,31 @@ section.product .container.product .content-wrapper p{
 section.second.product .container.product{
     flex-direction: row-reverse;
 }
+
+@media screen and (max-width: 768px){
+    section.product .container.product{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section.product .container.product .image-wrapper{
+        margin-bottom: 50px;
+    }
+
+    section.product .container.product .content-wrapper h2{
+        margin-bottom: 25px;
+    }
+
+    section.product .container.product .content-wrapper p{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    section.product .container.product{
+        padding-top: 0;
+    }
+
+    section.second.product .container.product{
+        flex-direction: column;
+    }
+}

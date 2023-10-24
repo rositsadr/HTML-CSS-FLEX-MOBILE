@@ -38,3 +38,31 @@ section.metrics .container.statistics .circle .content p{
     text-transform: uppercase;
     font-weight: 700;
 }
+
+@media screen and (max-width: 768px){
+    section.metrics>h2{
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    section.metrics >p{
+        max-width: unset;
+        font-size: 20px;
+        margin: 20px auto;
+    }
+
+    section.metrics .container.statistics .circle{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width:180px;
+        height: 180px;
+    }
+
+    section.metrics .container.statistics .circle .content h2{
+        font-size: 45px ;
+    }
+
+    section.metrics .container.statistics .circle .content p{
+        font-size: 24px;
+    }
+}
