@@ -140,6 +140,11 @@ header div.banner p{
         height: 40px;
     }
 
+    header div.container.banner{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     header div.banner h1{
         font-size: 60px;
     }
