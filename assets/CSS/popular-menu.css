@@ -1,6 +1,29 @@
 section.popular-menu{
     text-align: center;
+    position: relative;
+    overflow: hidden;
 }
+
+section.popular-menu .circle-one{
+    position: absolute;
+    top: -30px;
+    right: -36px;
+}
+
+section.popular-menu .circle-two{
+    position: absolute;
+    bottom: 116px;
+    left: -50px;
+}
+
+/* section.popular-menu::after{
+    display: block;
+    content: "";
+    background-image: url(../Images/Shape_Circle_1.png);
+    width: 191px;
+    height: 191px;
+    we cen put only one element!!!
+} */
 
 section.popular-menu h2{
     font-size: 64px;
